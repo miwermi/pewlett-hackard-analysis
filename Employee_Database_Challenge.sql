@@ -1,4 +1,6 @@
 --CHALLENGE QUERIES
+----------------------------------------------------------------------
+--DELIVERABLE 1--
 
 DROP TABLE retirement_titles;
 --Make a retiree info table with name number and title info (not dept, not gender), 
@@ -54,5 +56,26 @@ ORDER BY count DESC;
 
 SELECT * FROM retiring_titles;
 
+----------------------------------------------------------------------
+--DELIVERABLE 2--
 
+DROP TABLE mentorship_eligibility;
 
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+    e.first_name,
+	e.last_name,
+    e.birth_date,
+	de.from_date,
+    de.to_date,
+	j.title
+	INTO mentorship_eligibility
+FROM employees as e
+INNER JOIN titles as j
+	ON (e.emp_no = j.emp_no)
+INNER JOIN dept_emp as de
+	ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+	AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no, de.to_date DESC;
+	
+SELECT * FROM mentorship_eligibility;
