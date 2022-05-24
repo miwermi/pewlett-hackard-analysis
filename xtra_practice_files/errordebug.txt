@@ -1,0 +1,29 @@
+SELECT * from departments;
+SELECT * from dept_manager;
+SELECT * from dept_emp;
+SELECT * from employees;
+SELECT * from titles;
+SELECT * from salaries;
+
+Drop table titles;
+
+CREATE TABLE titles (
+  job_id INT NOT NULL,	
+  emp_no INT NOT NULL,
+  title VARCHAR(40) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (job_id)
+);
+
+CREATE TABLE titles (
+  emp_no INT NOT NULL,
+  title VARCHAR NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (emp_no)
+);
+
+SELECT * from titles;
