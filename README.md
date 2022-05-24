@@ -11,7 +11,7 @@ There are six main cvs files that store employee data.  Bobby (the Pewlet Hackar
 Fig 1. Pewlet Hackard Employee ERD (created with quickdatabasediagrams.com)
 
 ## Step 2: Preparing the new database
-The decision to use PostgreSQL and the accompanying PGadmin software to build, access and query the data. Once the database was initialized, the empty structure for each of the 6 tables in our ERD was created and the csv content was loaded. Once each tables content was confirmed without errors, we could begin writing queries to pull specific data and create new tables that contain retirement-specific data to easily answer all of our retirement questions.
+The decision was made to use the PostgreSQL environment for the new database and the accompanying PGadmin software to build, access and easily query the data. Once the database was initialized, the empty structure for each of the 6 tables in our ERD was created and the csv content of all 6 was loaded into the new environment. Once each table's content was confirmed without errors, we could begin writing queries to pull specific data and create new tables that contained retirement-specific data -- and easily answer all of our retirement questions.
 
 The two biggest questions being:
 - What is the nmber of retirement eligible employees and what are the jobs they will leave empty?
