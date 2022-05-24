@@ -1,7 +1,7 @@
                                                                                            Michelle Werner (5/22/2022)
 # Pewlet Hackard Employee Retirement Analysis
 
-# Overiew
+# Overview
 Pewlet Hackard is a large company with several thousand employees. Because so many employees are nearing retirement-age, the company is concerned about a silver tsunami ahead, and wants to be sure new employees are trained well-trained and mentored before the more experienced staff heads out the door.  The HR analyist on staff needs to answer questions about who will be retireing in the next few years and how many positions might need to be filled, and I will be helping him build a hearty relational database from mulitple excell files that all the company has used to store employee data up to now.
 
 ## Step 1: Reviewing the data
