@@ -17,6 +17,35 @@ The two biggest questions being:
 - What is the nmber of retirement eligible employees and what are the jobs they will leave empty?
 - Who are the employees that would be the best eligible candidates for any mentorship program?
 
+### Step 3: Writing the queries
+
+Initially, we searched for employees of retirement age using the birth date information in the main 'employee' table. We had settled on employees born between January 1st, 1952 and December 31st, 1955 -- and were terrified to realize that was over 90K employees.  Because of this we searched by each year individually, but all were fairly consistent with between 21K and ~23K employees/year - so we tried to limit the number by including a length of service range as well and created our first attempt at a retirement list with the query:
+
+  SELECT emp_no, first_name, last_name
+  INTO retirement_info
+  FROM employees
+  WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+  AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+From there we looked at departments, titles, and salaries individually, and created a few summary tables combining different characteristics like retirement eligible and salary info or retirment eligible and department, etc. Eventually realizing that the data contained people who no longer worked at Pewlet Hackard AND that many employees had multiple listings due to promotions and job title changes.
+
+Eventually we got our main retirement query to return accurate counts and quality information.
+  SELECT DISTINCT ON (e.emp_no) e.emp_no,
+    e.first_name,
+    e.last_name,
+    j.title,
+    j.from_date,
+    j.to_date
+    INTO retirement_count
+  FROM employees as e
+  INNER JOIN titles as j
+  ON (e.emp_no = j.emp_no)
+  WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+  AND (to_date = '9999-01-01')
+  ORDER BY e.emp_no, j.from_date DESC;
+  
+The query above returns 72458 results, which is equal to the number in a query without DISTINCT ON, or designating a from_date ORDER BY, but Bobby and I thought of situations where someone might be holding an interim position and perhaps entered twice, so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised when the numbers matched. 72458 employees are retirement age and currently still employed.
+
 ## Results
 
  - bullet1
