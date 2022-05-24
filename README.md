@@ -7,7 +7,7 @@ Pewlet Hackard is a large company with several thousand employees. Because so ma
 ## Step 1: Reviewing the data
 There are six main cvs files that store employee data.  Bobby (the Pewlet Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
 
-<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" height="75%" width="75%" alt="Fig 1. Pewlet Hackard Employee ERD" />
+<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" height="387" width="400" alt="Fig 1. Pewlet Hackard Employee ERD" />
 Fig 1. Pewlet Hackard Employee ERD (created with quickdatabasediagrams.com)
 
 ## Step 2: Preparing the new database
