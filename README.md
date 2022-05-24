@@ -48,15 +48,14 @@ The query above returns 72,458 results, which is equal to the number in a query 
 
 We also heard from departments that knowing how many of the retirement-eligible employees were in each department.
 
-  | Count	| Title         	   | 
-  |-------|--------------------|
-	| 25916	| Senior Engineer	   | 
+        | Count | Title              | 
+	| 25916	| Senior Engineer    | 
 	| 24926	| Senior Staff	     | 
-	|  9285	| Engineer	         | 
+	|  9285	| Engineer	     | 
 	|  7636	| Staff	             | 
-	|  3603	| Technique Leader	 | 
+	|  3603	| Technique Leader   | 
 	|  1090	| Assistant Engineer | 
-	|    2	| Manager	           | 
+	|    2	| Manager	     | 
 
 ## Results
 
