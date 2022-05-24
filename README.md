@@ -7,8 +7,8 @@ Pewlet Hackard is a large company with several thousand employees. Because so ma
 ## Step 1: Reviewing the data
 There are six main cvs files that store employee data.  Bobby (the Pewlet Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
 
-<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" alt = "Fig 1. Pewlet Hackard Employee ERD" />
-Fig 1. Pewlet Hackard Employee ERD
+<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" height="75%" width="75%" alt="Fig 1. Pewlet Hackard Employee ERD" />
+Fig 1. Pewlet Hackard Employee ERD (created with quickdatabasediagrams.com)
 
 ## Step 2: Preparing the new database
 The decision to use PostgreSQL and the accompanying PGadmin software to build, access and query the data. Once the database was initialized, the empty structure for each of the 6 tables in our ERD was created and the csv content was loaded. Once each tables content was confirmed without errors, we could begin writing queries to pull specific data and create new tables that contain retirement-specific data to easily answer all of our retirement questions.
