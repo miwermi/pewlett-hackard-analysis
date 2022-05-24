@@ -46,17 +46,6 @@ We had to rethink our logic. Eventually we succeeded in getting a quality list, 
   
 The query above returns 72,458 results, which is equal to the number in a query without DISTINCT ON, or designating a from_date ORDER BY, but Bobby and I thought of situations where someone might be holding an interim position and perhaps entered as current with two titles, so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised when the numbers matched in the simpler query (without a DISTINCT ON, or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
 
-We also heard from departments that knowing how many of the retirement-eligible employees were in each department.
-
-        | Count | Title              | 
-	| 25916	| Senior Engineer    | 
-	| 24926	| Senior Staff	     | 
-	|  9285	| Engineer	     | 
-	|  7636	| Staff	             | 
-	|  3603	| Technique Leader   | 
-	|  1090	| Assistant Engineer | 
-	|    2	| Manager	     | 
-
 ## Results
 
  - bullet1
@@ -68,3 +57,5 @@ We also heard from departments that knowing how many of the retirement-eligible 
 
 How many roles will need to be filled as the 'silver tsunami' begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+Titles... but Departments?  Mentors??
