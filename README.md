@@ -48,10 +48,10 @@ The query above returns 72,458 results, which is equal to the number returned in
 
 ## Results
 
-The results of our Pewlett Hackard employee data analysis revealed a lot of useful data insights and answer the initial questions that called for this analysis. Results that we believe will are most useful are:
+The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing result include:
 
  - The number of current employees that are eligible for retirement is 72,458.
- - The titles of these employees indicate that most fall into upper management (see Fig 2 below)
+ - The titles of these employees indicate the vast majority fall into upper management - including 25,916 Senior Engineers and 24,926 Senior Staff, as well as 3603 Tech Leaders and 2 managers - leaving only 18,011 eligible retirees in non-leadership positions.
  - bullet3
  - bullet4
 
