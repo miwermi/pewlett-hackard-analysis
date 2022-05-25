@@ -27,8 +27,8 @@ Initially, we searched for employees of retirement age using the birth date info
     WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
     AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
 
-From there we looked at departments, titles, and salaries individually, and created a few summary tables combining different characteristics like retirement eligible and salary info or retirment eligible and department, etc. But wait!  In looking at the date, we realized that it contained people who no longer worked at Pewlet Hackard with end dates that were already in the past - AND that many employees had multiple listings due to promotions and job title changes.
-We had to rethink our logic. Eventually we succeeded in getting a quality list, and our query to return accurate counts and quality information. We used the following:
+From there we looked at departments, titles, and salaries individually, and created a few summary tables combining different characteristics like retirement eligible and salary info or retirement eligible and department, etc. In looking closely at that data, we realized that it contained people who no longer worked at Pewlett Hackard with end dates that were already in the past, and noticed that many employees had multiple listings due to promotions and job title changes.
+We had to rethink our logic. Eventually we succeeded in getting a quality list, and creating a query to return accurate counts and quality information. We used the following:
 
     SELECT DISTINCT ON (e.emp_no) e.emp_no,
       e.first_name,
@@ -67,17 +67,17 @@ Because of the number of people leaving each department we were tasked with prov
 - A list of managers for each department, including the department number, name, and the manager's employee number, last name, first name, and the starting and ending employment dates (Management Info).
 - An updated current employee list that includes the employee's departments so that sorting out the Department Retirees can be done efficiently in the future.
 
-We were able to successfully complete that task, and to provide several addtional lists of data, including:
+We were able to successfully complete that task, and to provide several additional lists of data, including:
  - A list of retirement eligible employees and their last known title (Retirement Titles)
  - A list of employees born in 1965 who would be eligible for the Mentorship program and their current titles (Mentorship Eligibility)
 
-We were able to identify all current retirement elibile employees and to calculate that there are more than enough mentors available for the planneed mentoring program. However, the mentoring program as it is seems insufficent to mentor enough employees to fill the number of upcoming empty positions.  As the 'silver tsunami' begins to make an impact, 72.5 thousand jobs will need to be filled and the mentorship program as it stands will only pair up 1.5 thousand employees.  
+We were able to identify all current retirement eligible employees and to calculate that there are more than enough mentors available for the planned mentoring program. However, the mentoring program as it is seems insufficient to mentor enough employees to fill the number of upcoming empty positions.  As the 'silver tsunami' begins to make an impact, 72.5 thousand jobs will need to be filled and the mentorship program as it stands will only pair up 1.5 thousand employees.  
 
-Also, we looked at lastest "title" and it is not clear whether the plan is to match up similarly 'titled' retiring employees and mentees - or mentees that would 'level-up' from the mentorship program.  Because of this, we also created lists of employees with last title AND department so that better matching could take place.  These lists are:
- - A list of retirement eligible employees, last know title and dpartment ()
+Also, we looked at latest "title" and it is not clear whether the plan is to match up similarly 'titled' retiring employees and mentees - or mentees that would 'level-up' from the mentorship program.  Because of this, we also created lists of employees with last title AND department so that better matching could take place.  These lists are:
+ - A list of retirement eligible employees, last know title and department ()
  - A list of potential mentees - with birth years expanded to include all years from 1964-1969 ()
 
-Comparing these lists will not only facilitate better matching and better mentee opportunity and incentive, it will also increase the number of mentorships in the program which will hopefull offset the potential 'silver tsunami' openings at a much higher rate. The sucess of any promoted employees will depend on both job-readiness (and the truly impactful benefit of a great mentor) - AND proper staffing at all levels.  Training only 2% of people needed (1.5/72.5) will not have the impact the mentorship program is intending.  By increasing the program to the dates we have suggested, would increase the program potential job-filling rate from 2% to 26%, still lacking, but better.
+Comparing these lists will not only facilitate better matching and better mentee opportunity and incentive, it will also increase the number of mentorships in the program which will hopefully offset the potential 'silver tsunami' openings at a much higher rate. The success of any promoted employees will depend on both job-readiness (and the truly impactful benefit of a great mentor) - AND proper staffing at all levels.  Training only 2% of people needed (1.5/72.5) will not have the impact the mentorship program is intending.  By increasing the program to the dates we have suggested, would increase the program potential job-filling rate from 2% to 26%, still lacking, but better.
 
 ### Final Recommendations
 
