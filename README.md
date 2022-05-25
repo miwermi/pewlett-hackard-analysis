@@ -7,8 +7,8 @@ Pewlett Hackard is a large company with several thousand employees. Because so m
 ### Step 1: Reviewing the data
 There are six main csv files that store all of the company's employee data.  Bobby (the Pewlett Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
 
-<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" alt="Fig 1. Pewlet Hackard Employee ERD" />
-Fig 1. Pewlet Hackard Employee ERD (created with quickdatabasediagrams.com)
+<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" alt="Fig 1. Pewlett Hackard Employee ERD" />
+Fig 1. Pewlett Hackard Employee ERD (created with quickdatabasediagrams.com)
 
 ### Step 2: Preparing the new database
 The decision was made to use the PostgreSQL environment for the new database and the accompanying PGadmin software to build, access and easily query the data. Once the database was initialized, the empty structure for each of the 6 tables in our ERD was created and the csv content of all 6 was loaded into the new environment. Once each table's content was confirmed without errors, we could begin writing queries to pull specific data and create new tables that contained retirement-specific data -- and easily answer all of our retirement questions.
@@ -47,21 +47,18 @@ We had to rethink our logic. Eventually we succeeded in getting a quality list, 
 The query above returns 72,458 results, which is equal to the number returned in a query without DISTINCT ON or designating a from_date ORDER BY, but Bobby and I could think of situations where someone might be holding an interim position and perhaps entered as 'current' with two titles (or some other similar entry error since this table does not contain a unique primary key such as 'job_id' and multiple titles are allowable for each employee number), so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised that the new query count matched the simpler query (without a DISTINCT ON or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
 
 ## Results
-<div style="width: 300px; float: right; padding-left: 10px;>
-<img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
-Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
-</div>
+<img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
 The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing result include:
 
  - The number of current employees that are eligible for retirement is 72,458.
- - The titles of these employees indicate the vast majority fall into upper management - including 25,916 Senior Engineers and 24,926 Senior Staff, as well as 3603 Tech Leaders and 2 managers - leaving only 18,011 eligible retirees in non-leadership positions (see Fig 2 below).
+ - The titles of these employees indicate the vast majority fall into upper management - including 25,916 Senior Engineers and 24,926 Senior Staff, as well as 3603 Tech Leaders and 2 managers - leaving only 18,011 eligible retirees in non-leadership positions (see Fig 2 on right).
  - bullet3
  - bullet4
 
 
-
+Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
 ## Summary
 
