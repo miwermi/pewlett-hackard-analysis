@@ -67,9 +67,22 @@ Because of the number of people leaving each department we were tasked with prov
 - A list of managers for each department, including the department number, name, and the manager's employee number, last name, first name, and the starting and ending employment dates (Management Info).
 - An updated current employee list that includes the employee's departments so that sorting out the Department Retirees can be done efficiently in the future.
 
-We were able to successfully complete that task, to identify all current and retirement elibile employees and to calculate that there are more than enough mentors available for the planneed mentoring program. However, the mentoring program as it is seems insufficent to mentor enough employees to fill the upcoming empty positions.
-    
-How many roles will need to be filled as the 'silver tsunami' begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+We were able to successfully complete that task, and to provide several addtional lists of data, including:
+ - A list of retirement eligible employees and their last known title (Retirement Titles)
+ - A list of employees born in 1965 who would be eligible for the Mentorship program and their current titles (Mentorship Eligibility)
 
-Titles... but Departments?  Mentors??
+We were able to identify all current retirement elibile employees and to calculate that there are more than enough mentors available for the planneed mentoring program. However, the mentoring program as it is seems insufficent to mentor enough employees to fill the number of upcoming empty positions.  As the 'silver tsunami' begins to make an impact, 72.5 thousand jobs will need to be filled and the mentorship program as it stands will only pair up 1.5 thousand employees.  
+
+Also, we looked at lastest "title" and it is not clear whether the plan is to match up similarly 'titled' retiring employees and mentees - or mentees that would 'level-up' from the mentorship program.  Because of this, we also created lists of employees with last title AND department so that better matching could take place.  These lists are:
+ - A list of retirement eligible employees, last know title and dpartment ()
+ - A list of potential mentees - with birth years expanded to include all years from 1964-1969 ()
+
+Comparing these lists will not only facilitate better matching and better mentee opportunity and incentive, it will also increase the number of mentorships in the program which will hopefull offset the potential 'silver tsunami' openings at a much higher rate. The sucess of any promoted employees will depend on both job-readiness (and the truly impactful benefit of a great mentor) - AND proper staffing at all levels.  Training only 2% of people needed (1.5/72.5) will not have the impact the mentorship program is intending.  By increasing the program to the dates we have suggested, would increase the program potential job-filling rate from 2% to 26%, still lacking, but better.
+
+### Final Recommendations
+
+- Increase the age-range of the mentorship program for a higher employee pool to fill vacant jobs - and a higher staff success rate in promoted positions.
+
+- Look at department needs when matching, in addition to titles. 
+
+
