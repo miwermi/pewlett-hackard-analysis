@@ -1,11 +1,11 @@
                                                                                            Michelle Werner (5/22/2022)
-# Pewlet Hackard Employee Retirement Analysis
+# Pewlett Hackard Employee Retirement Analysis
 
 ## Overview
-Pewlet Hackard is a large company with several thousand employees. Because so many employees are nearing retirement age, the company is concerned about a silver tsunami ahead, and wants to be sure new employees are trained well-trained and mentored before the more experienced staff heads out the door.  The HR analyst on staff needs to answer questions about who will be retiring in the next few years and how many positions might need to be filled, and I will be helping him build a hearty relational database from multiple excel files that all the company has used to store employee data up to now.
+Pewlett Hackard is a large company with several thousand employees. Because so many employees are nearing retirement age, the company is concerned about a silver tsunami ahead, and wants to be sure new employees are trained well-trained and mentored before the more experienced staff heads out the door.  The HR analyst on staff needs to answer questions about who will be retiring in the next few years and how many positions might need to be filled, and I will be helping him build a hearty relational database from multiple excel files that all the company has used to store employee data up to now.
 
 ### Step 1: Reviewing the data
-There are six main csv files that store all of the company's employee data.  Bobby (the Pewlet Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
+There are six main csv files that store all of the company's employee data.  Bobby (the Pewlett Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
 
 <img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" alt="Fig 1. Pewlet Hackard Employee ERD" />
 Fig 1. Pewlet Hackard Employee ERD (created with quickdatabasediagrams.com)
@@ -48,10 +48,10 @@ The query above returns 72,458 results, which is equal to the number returned in
 
 ## Results
 
-The results of our Pewlet Hackard employee data analysis revealed a lot of useful data insights and answer the initial questions that called for this analysis.  Results that we believe will are most useful are:
+The results of our Pewlett Hackard employee data analysis revealed a lot of useful data insights and answer the initial questions that called for this analysis. Results that we believe will are most useful are:
 
- - bullet1
- - bullet2
+ - The number of current employees that are eligible for retirement is 72,458.
+ - The titles of these employees indicate that most fall into upper management (see Fig 2 below)
  - bullet3
  - bullet4
 
