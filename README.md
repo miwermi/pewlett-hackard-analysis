@@ -63,7 +63,7 @@ Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
 ### Employee Lists: 
 
-Because of the number of people or retirement age employeed at Pewlett Hackard, an analysis of employee data was requested with the following original list requests:
+Because of the number of people or retirement age employed at Pewlett Hackard, an analysis of employee data was requested with the following original list requests:
 
 - A list of employees containing their unique employee number, their last name, first name, gender, and salary (Employee Info).
 - A list of managers for each department, including the department number, name, and the manager's employee number, last name, first name, and the starting and ending employment dates (Management Info).
