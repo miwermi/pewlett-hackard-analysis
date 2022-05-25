@@ -47,8 +47,11 @@ We had to rethink our logic. Eventually we succeeded in getting a quality list, 
 The query above returns 72,458 results, which is equal to the number returned in a query without DISTINCT ON or designating a from_date ORDER BY, but Bobby and I could think of situations where someone might be holding an interim position and perhaps entered as 'current' with two titles (or some other similar entry error since this table does not contain a unique primary key such as 'job_id' and multiple titles are allowable for each employee number), so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised that the new query count matched the simpler query (without a DISTINCT ON or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
 
 ## Results
-
+<div style="width: 300px; float: right; padding-left: 10px;>
 <img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
+
+Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
+</div>
 
 The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing result include:
 
@@ -58,7 +61,7 @@ The results of our Pewlett Hackard employee data analysis revealed useful data i
  - bullet4
 
 
-Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
+
 
 ## Summary
 
