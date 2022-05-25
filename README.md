@@ -2,7 +2,7 @@
 # Pewlett Hackard Employee Retirement Analysis
 
 ## Overview
-Pewlett Hackard is a large company with several thousand employees. Because so many employees are nearing retirement age, the company is concerned about a silver tsunami ahead, and wants to be sure new employees are trained well-trained and mentored before the more experienced staff heads out the door.  The HR analyst on staff needs to answer questions about who will be retiring in the next few years and how many positions might need to be filled, and I will be helping him build a hearty relational database from multiple excel files that all the company has used to store employee data up to now.
+Pewlett Hackard is a large company with several thousand employees. Because so many employees are nearing retirement age, the company is concerned about a 'silver tsunami' of exiting employees and vacant positions ahead, and wants to be sure current employees are well-trained and mentored before more experienced staff heads out the door.  The HR analyst on staff needs to answer questions about who will be retiring in the next few years and how many positions might need to be filled, and I will be helping him build a hearty relational database from multiple excel files that all the company has used to store employee data up to now.
 
 ### Step 1: Reviewing the data
 There are six main csv files that store all of the company's employee data.  Bobby (the Pewlett Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
