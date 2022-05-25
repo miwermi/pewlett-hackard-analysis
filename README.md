@@ -44,11 +44,11 @@ We had to rethink our logic. Eventually we succeeded in getting a quality list, 
     AND (to_date = '9999-01-01')
     ORDER BY e.emp_no, j.from_date DESC;
   
-The query above returns 72,458 results, which is equal to the number in a query without DISTINCT ON, or designating a from_date ORDER BY, but Bobby and I thought of situations where someone might be holding an interim position and perhaps entered as current with two titles, so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised that new numbers matched the simpler query (without a DISTINCT ON, or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
+The query above returns 72,458 results, which is equal to the number returned in a query without DISTINCT ON or designating a from_date ORDER BY, but Bobby and I could think of situations where someone might be holding an interim position and perhaps entered as 'current' with two titles (or some other similar entry error since this table does not contain a unique primary key such as 'job_id' and multiple titles are allowable for each employee number), so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised that the new query count matched the simpler query (without a DISTINCT ON or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
 
 ## Results
 
-The results of our analysis that we believe will be most useful are:
+The results of our Pewlet Hackard employee data analysis revealed a lot of useful data insights and answer the initial questions that called for this analysis.  Results that we believe will are most useful are:
 
  - bullet1
  - bullet2
