@@ -48,6 +48,8 @@ The query above returns 72,458 results, which is equal to the number returned in
 
 ## Results
 
+<img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
+
 The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing result include:
 
  - The number of current employees that are eligible for retirement is 72,458.
@@ -55,9 +57,8 @@ The results of our Pewlett Hackard employee data analysis revealed useful data i
  - bullet3
  - bullet4
 
-<span style="float: right;"><img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
-Fig 2. Pewlett Hackard Retirement Eligible Employee Titles</span>
+Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
 ## Summary
 
