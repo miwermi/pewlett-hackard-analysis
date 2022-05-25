@@ -55,9 +55,9 @@ The results of our Pewlett Hackard employee data analysis revealed useful data i
  - bullet3
  - bullet4
 
-<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
+<span style="float: right;"><img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
-Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
+Fig 2. Pewlett Hackard Retirement Eligible Employee Titles</span>
 
 ## Summary
 
