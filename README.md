@@ -50,18 +50,25 @@ The query above returns 72,458 results, which is equal to the number returned in
 
 <img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
-The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing result include:
+The results of our Pewlett Hackard employee data analysis revealed useful data insights about the potential 'silver tsunami' and answer the initial questions that called for this analysis. Revealing results include:
 
  - The number of current employees that are eligible for retirement is 72,458.
  - The titles of these employees indicate the vast majority fall into upper management - including 25,916 Senior Engineers and 24,926 Senior Staff, as well as 3603 Tech Leaders and 2 managers - leaving only 18,011 eligible retirees in non-leadership positions (see Fig 2 on right).
- - bullet3
- - bullet4
-
+ - The number of current employees eligible for the mentorship program (with the birth year restriction set to 1965) is 1549.
+ - If all employees eligible for the mentorship program participated, there would be more than enough retirement-ready mentors to work with the mentorship eligible employees.
 
 Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
 ## Summary
 
+Because of the number of people leaving each department we were tasked with providing three specific lists of employee data:
+
+- Employee Information: A list of employees containing their unique employee number, their last name, first name, gender, and salary
+- Management: A list of managers for each department, including the department number, name, and the manager's employee number, last name, first name, and the starting and ending employment dates
+- Department Retirees: An updated current_emp list that includes everything it currently has, but also the employee's departments.
+
+We were able to successfully complete that task but 
+    
 How many roles will need to be filled as the 'silver tsunami' begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
