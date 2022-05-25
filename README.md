@@ -55,7 +55,7 @@ The results of our Pewlett Hackard employee data analysis revealed useful data i
  - The number of current employees that are eligible for retirement is 72,458.
  - The titles of these employees indicate the vast majority fall into upper management - including 25,916 Senior Engineers and 24,926 Senior Staff, as well as 3603 Tech Leaders and 2 managers - leaving only 18,011 eligible retirees in non-leadership positions (see Fig 2 on right).
  - The number of current employees eligible for the mentorship program (with the birth year restriction set to 1965) is 1549.
- - If all employees eligible for the mentorship program participated, the number of needed mentors would equal 283 Senior Engineers, 422 Senior Staff, 77 Tech Leaders, 404 Engineers, 61 Assistant Engineers, and 302 Staff. 
+ - If all employees eligible for the mentorship program participated, the mentorship pool would contain 283 Senior Engineers, 422 Senior Staff, 77 Tech Leaders, 404 Engineers, 61 Assistant Engineers, and 302 Staff. 
 <br />
 Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
