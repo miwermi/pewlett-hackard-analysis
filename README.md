@@ -57,6 +57,7 @@ The results of our Pewlett Hackard employee data analysis revealed useful data i
  - The number of current employees eligible for the mentorship program (with the birth year restriction set to 1965) is 1549.
  - If all employees eligible for the mentorship program participated, there would be more than enough retirement-ready mentors to work with the mentorship eligible employees.
 
+
 Fig 2. Pewlett Hackard Retirement Eligible Employee Titles
 
 ## Summary
