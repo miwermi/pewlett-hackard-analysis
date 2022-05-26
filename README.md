@@ -7,7 +7,7 @@ Pewlett Hackard is a large company with several thousand employees. Because so m
 ### Step 1: Reviewing the data
 There are six main csv files that store all of the company's employee data.  Bobby (the Pewlett Hackard HR analyst) and I worked together to generate this ERD (Entity Relationship Diagram) to have a visual of the conceptual, logical, and physical content of each table that will be added to our final database. The image below clearly shows primary and foreign keys in each table and the way each table relates/connects to another.
 
-<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/EmployeeDB.png" alt="Fig 1. Pewlett Hackard Employee ERD" />
+<img src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/images/EmployeeDB.png" alt="Fig 1. Pewlett Hackard Employee ERD" />
 Fig 1. Pewlett Hackard Employee ERD (created with quickdatabasediagrams.com)
 
 ### Step 2: Preparing the new database
@@ -46,7 +46,7 @@ We had to rethink our logic. Eventually we succeeded in getting a quality list, 
   
 The query above returns 72,458 results, which is equal to the number returned in a query without DISTINCT ON or designating a from_date ORDER BY, but Bobby and I could think of situations where someone might be holding an interim position and perhaps entered as 'current' with two titles (or some other similar entry error since this table does not contain a unique primary key such as 'job_id' and multiple titles are allowable for each employee number), so we agreed this query would knock any issue like that out as well.  We were pleasantly surprised that the new query count matched the simpler query (without a DISTINCT ON or from_date consideration). 72,458 employees are retirement age and currently still employed - and that number has been double-checked.
 
-<img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
+<img align="right" src="https://raw.githubusercontent.com/miwermi/pewlett-hackard-analysis/main/images/RetirementTitles.png" alt="Fig 2. Pewlett Hackard Retirement Eligible Employee Titles" />
 
 ## Results
 
