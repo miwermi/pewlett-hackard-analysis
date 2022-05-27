@@ -27,7 +27,7 @@ Initially, we searched for employees of retirement age using the birth date info
     WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
     AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
 
-From there we looked at departments, titles, and salaries individually, and created a few summary tables combining different characteristics like retirement eligible and salary info or retirement eligible and department, etc. In looking closely at that data, we realized that it contained people who no longer worked at Pewlett Hackard with end dates that were already in the past, and noticed that many employees had multiple listings due to promotions and job title changes.
+From there we looked at departments, titles, and salaries individually, and created a few summary tables combining different characteristics like retirement eligible and salary info or retirement eligiblilty and department, etc. In looking closely at that data, we realized that it contained people who no longer worked at Pewlett Hackard with end dates that were already in the past, and noticed that many employees had multiple listings due to promotions and job title changes.
 We had to rethink our logic. Eventually we succeeded in getting a quality list, and creating a query to return accurate counts and quality information. We used the following:
 
     SELECT DISTINCT ON (e.emp_no) e.emp_no,
